@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1687
+
+JDOX is a vim plugin that generates javadoc compatibile comment for c++ function definitions. The main point that differs jdox from similar commenting plugins is that jdox supports comments between arguments, function name and return types.
+Example:
+/**
+ * Function: a_function
+ * @author Pawel Prokop
+ * @param str 
+ * @param number 
+ * @return unsigned  int
+ * @version 1.0
+ */
+unsigned 
+int  a_function  ( char * str, /* int not_used_anymore, */ unsigned int number) {
+
+
